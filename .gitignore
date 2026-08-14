@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build*/
+*.log
+# Secret-shaped files, by pattern rather than by path - a per-name list only ever
+# covers the ones somebody remembered.
+**/*.key
+**/*.pem
+**/*seed
+**/.env
+**/.env.*
+!**/.env.example
